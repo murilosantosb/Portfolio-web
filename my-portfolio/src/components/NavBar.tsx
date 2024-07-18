@@ -43,6 +43,7 @@ const NavBar: React.FC = () => {
                 <li>About</li>
                 <li>Projects</li>
                 <li>Contacts</li>
+                <li>dsdsd</li>
             </ul>
     </Nav>
   )
