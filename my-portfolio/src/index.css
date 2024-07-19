@@ -21,6 +21,10 @@ body {
   padding-bottom: 1000px;
 }
 
-p, h1 {
+p,h1 {
   word-spacing: 5px;
+}
+
+p {
+  text-align: justify;
 }
