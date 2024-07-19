@@ -2,6 +2,9 @@
   --bg-primary: #11071f;
   --bg-secondary: #1a0b2e;
   --bg-tertiary: #6d38a1;
+  --bg-primary-gradient: #6d38a1;
+  --bg-secondary-gradient: #7e6d94;
+  --color-strong: #7127ba;
 }
 
 * {
@@ -10,5 +13,14 @@
   box-sizing: border-box;
   font-family: "Plus Jakarta Sans";
   color: white;
+  overflow-x: hidden;
 }
 
+body {
+  background-color: var(--bg-primary);
+  padding-bottom: 1000px;
+}
+
+p, h1 {
+  word-spacing: 5px;
+}

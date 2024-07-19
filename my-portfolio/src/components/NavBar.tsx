@@ -5,7 +5,7 @@ import logo from "../assets/logo.jpg"
 const Nav = styled.nav`
     background-color: var(--bg-secondary);
     padding: 30px 40px;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,10 @@ const Nav = styled.nav`
     }
 
     @media(min-width:700px) {
+        display: flex;
         justify-content: space-around;
+        overflow-y: hidden;
+
         transform: scale(1.1);
         >ul {
             gap: 100px;
@@ -37,13 +40,12 @@ const Nav = styled.nav`
 const NavBar: React.FC = () => {
   return (
     <Nav>
-            <img src={logo} alt="" />
+            <img src={logo} alt="Logo do site" />
             <ul>
                 <li>Home</li>
                 <li>About</li>
                 <li>Projects</li>
                 <li>Contacts</li>
-                <li>dsdsd</li>
             </ul>
     </Nav>
   )
