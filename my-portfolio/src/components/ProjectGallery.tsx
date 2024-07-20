@@ -1,17 +1,7 @@
 import React from 'react'
-import styled from 'styled-components'
+
 import Project from './Project'
-
-const ProjectGalleryContainer = styled.section`
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 200px;
-
-    @media (min-width: 991px) {
-        width: 60%;
-    }
-`
+import { ProjectGalleryContainer } from './UI/ProjectGallery.styles'
 
 const ProjectGallery: React.FC = () => {
   return (
