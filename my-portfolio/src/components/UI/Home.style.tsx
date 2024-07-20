@@ -30,7 +30,7 @@ export const HomeContainer = styled.section`
     }
 
     p.p-secondary {
-        text-decoration: underline  ;
+        text-decoration: underline ;
 
     }
 
