@@ -5,6 +5,7 @@ export const ProjectGalleryContainer = styled.section`
     flex-direction: column;
     width: 100%;
     gap: 200px;
+    padding: 10px;
 
     @media (min-width: 991px) {
         width: 60%;
@@ -17,13 +18,10 @@ export const ProjectConteiner = styled.section`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
         gap: 30px;
         width: 100%;
 
-        span {
-            
-        }
+       
 
         span > h2 {
             color: var(--color-strong);
@@ -36,22 +34,6 @@ export const ProjectConteiner = styled.section`
             font-size: 2em;
         }
 
-        div {
-            width: 430px ;
-            background-color: #2b0b3a;
-            display: flex;
-            justify-content: flex-start;
-            border-radius: 15px;
-        }
-
-        div > img {
-            width: 400px;
-            border-radius: 0px 15px 0px 15px;
-            /* padding-top: 25px; */
-            margin-top: 15px;
-
-        }
-
         article {
             background-color: transparent;
             backdrop-filter: blur(15px);
@@ -61,7 +43,25 @@ export const ProjectConteiner = styled.section`
             padding: 20px 30px;
         }
 
-    @media (min-width: 991px) {
+        div {
+            width: 430px;
+            background-color: #2b0b3a;
+            display: flex;
+            justify-content: flex-start;
+            border-radius: 15px;
+        }
+
+        div > img {
+            width: 400px;
+            height: 250px;
+            border-radius: 0px 15px 0px 15px;
+            margin-top: 15px;
+
+        }
+
+        
+
+    @media (min-width: 1200px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 100px 100px;
@@ -73,13 +73,12 @@ export const ProjectConteiner = styled.section`
         }
 
         div {
-            width: 560px ;
+            width: 500px ;
 
         }
 
         div > img {
-            width: 500px;
-
+            width: 470px;
         }
 
         article {
@@ -94,9 +93,40 @@ export const ProjectConteiner = styled.section`
 `
 
 export const ProjectRight = styled(ProjectConteiner)`
-    
+    align-items: flex-start;
+
+    @media (min-width: 1200px) {
+        div > img {
+            border-radius: 15px 0px 0px 0px;
+            margin-left: 35px;
+
+        }
+    }
 `
 
 export const ProjectLeft = styled(ProjectConteiner)`
-    
+    align-items: flex-end;
+
+     span  {
+        text-align: end;
+    }
+
+    @media(min-width: 1200px) {
+       display: flex;
+       flex-direction: row-reverse;
+       align-items: center;
+        
+       
+
+        div > img {
+            margin-right: 35px ;
+
+        }
+
+       section {
+        margin: 0px 0px 60px -90px;
+        /* margin-bottom: 60px; */
+       }
+    }
 ` 
+

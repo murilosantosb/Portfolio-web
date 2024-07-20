@@ -3,24 +3,26 @@ import React from 'react'
 // Interface
 import { ProjectProps } from '../interface/ProjectProps'
 // UI
-import { ProjectConteiner } from './UI/ProjectGallery.styles'
+import { ProjectLeft, ProjectRight} from './UI/ProjectGallery.styles'
 
-const Project: React.FC<ProjectProps> = ({ title, contents, image,}) => {
+const Project: React.FC<ProjectProps> = ({ title, contents, image, position}) => {
+    const Layout = position === "right" ? ProjectRight : ProjectLeft
+
   return (
-    <ProjectConteiner>
+    <Layout>
         <section>
             <span>
-                <h2>Featured Project</h2>
-                <h1>{title}</h1>
+              <h2>Featured Project</h2>
+              <h1>{title}</h1>
             </span>
             <article>
-                <p>{contents}</p>
+              <p>{contents}</p>
             </article>
-        </section>
-        <div>
+          </section>
+          <div>
             <img src={image} alt={title} />
-        </div>
-    </ProjectConteiner>
+          </div>
+    </Layout>
   )
 }
 

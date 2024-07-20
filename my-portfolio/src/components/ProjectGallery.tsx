@@ -14,6 +14,7 @@ const ProjectGallery: React.FC = () => {
             recommended tracks based on your existing playlists and more.'
             image='../../public/react-food.png'
             link='https://github.com/murilosantosb'
+            position='right'
         />
 
         <Project 
@@ -24,6 +25,7 @@ const ProjectGallery: React.FC = () => {
             recommended tracks based on your existing playlists and more.'
             image='../../public/react-gram.png'
             link='https://github.com/murilosantosb'
+            position='left'
         />
     </ProjectGalleryContainer>
   )
