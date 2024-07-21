@@ -17,7 +17,7 @@
 
 body {
   background-color: var(--bg-primary);
-  padding-bottom: 1000px;
+  padding-bottom: 10px;
   overflow-x: hidden;
 }
 
@@ -27,4 +27,8 @@ p,h1 {
 
 p {
   text-align: justify;
+}
+
+a {
+  text-decoration: none;
 }

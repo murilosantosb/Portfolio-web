@@ -1,26 +1,32 @@
 import React from 'react'
+import { IoIosLink } from "react-icons/io";
 
 // Interface
 import { ProjectProps } from '../interface/ProjectProps'
 // UI
 import { ProjectLeft, ProjectRight} from './UI/ProjectGallery.styles'
 
-const Project: React.FC<ProjectProps> = ({ title, contents, image, position}) => {
+const Project: React.FC<ProjectProps> = ({ title, contents, image, position, link}) => {
     const Layout = position === "right" ? ProjectRight : ProjectLeft
 
   return (
     <Layout>
         <section>
             <span>
-              <h2>Featured Project</h2>
-              <h1>{title}</h1>
+                <h2>Featured Project</h2>
+                <a href={link} target='_blank'>
+                    <h1>
+                        {title}
+                        <IoIosLink/>
+                    </h1>
+                </a>
             </span>
             <article>
-              <p>{contents}</p>
+                <p>{contents}</p>
             </article>
           </section>
           <div>
-            <img src={image} alt={title} />
+              <img src={image} alt={title} />             
           </div>
     </Layout>
   )

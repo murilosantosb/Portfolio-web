@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar"
 import Home from "./components/Home"
 import MySkills from "./components/MySkills"
 import ProjectGallery from "./components/ProjectGallery"
+import Footer from "./components/Footer"
 
 const Container = styled.main`
   display: flex;
@@ -30,6 +31,7 @@ function App() {
         <Home />
         <MySkills />
         <ProjectGallery />
+        <Footer />
       </Container>
     </>
   )

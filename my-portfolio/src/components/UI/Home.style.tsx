@@ -27,6 +27,7 @@ export const HomeContainer = styled.section`
         position: absolute;
         top: 0%;
         left: 52%;
+        
     }
 
     p.p-secondary {

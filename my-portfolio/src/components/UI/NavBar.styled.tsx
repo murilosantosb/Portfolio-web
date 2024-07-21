@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 
 export const Nav = styled.nav`
+    html {
+        scroll-behavior: smooth;
+    }
+
     background-color: var(--bg-secondary);
     padding: 30px 40px;
     /* width: 100%; */

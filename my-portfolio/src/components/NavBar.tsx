@@ -7,10 +7,10 @@ const NavBar: React.FC = () => {
     <Nav>
             <img src={logo} alt="Logo do site" />
             <ul>
-                <li>Home</li>
+                <li><a href="#home">Home</a></li>
                 <li>About</li>
                 <li>Projects</li>
-                <li>Contacts</li>
+                <li><a href="#contacts">Contacts</a></li>
             </ul>
     </Nav>
   )

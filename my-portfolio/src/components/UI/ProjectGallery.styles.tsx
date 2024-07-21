@@ -28,10 +28,18 @@ export const ProjectConteiner = styled.section`
             font-size: medium;
         }
 
-        span > h1 {
+        span > a  {
             margin-top: 7px;
             color: #e2e2e2;
             font-size: 2em;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        span > a:hover {
+            cursor: pointer;
+            color: #8853e4;
+            text-decoration: underline;
         }
 
         article {
@@ -106,10 +114,9 @@ export const ProjectRight = styled(ProjectConteiner)`
 
 export const ProjectLeft = styled(ProjectConteiner)`
     align-items: flex-end;
-
      span  {
         text-align: end;
-    }
+     }
 
     @media(min-width: 1200px) {
        display: flex;
