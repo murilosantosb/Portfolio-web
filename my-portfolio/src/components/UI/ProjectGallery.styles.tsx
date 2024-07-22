@@ -5,7 +5,6 @@ export const ProjectGalleryContainer = styled.section`
     flex-direction: column;
     width: 100%;
     gap: 200px;
-    padding: 10px;
 
     @media (min-width: 991px) {
         width: 60%;
@@ -20,8 +19,6 @@ export const ProjectConteiner = styled.section`
         justify-content: center;
         gap: 30px;
         width: 100%;
-
-       
 
         span > h2 {
             color: var(--color-strong);
@@ -52,7 +49,7 @@ export const ProjectConteiner = styled.section`
         }
 
         div {
-            width: 430px;
+            width: 400px;
             background-color: #2b0b3a;
             display: flex;
             justify-content: flex-start;
@@ -60,7 +57,7 @@ export const ProjectConteiner = styled.section`
         }
 
         div > img {
-            width: 400px;
+            width: 370px;
             height: 250px;
             border-radius: 0px 15px 0px 15px;
             margin-top: 15px;
