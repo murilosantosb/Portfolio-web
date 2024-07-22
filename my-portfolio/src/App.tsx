@@ -15,10 +15,12 @@ const Container = styled.main`
   justify-content: center;
   gap: 150px;
   padding: 20px 30px;
+  margin-top: 25%;
 
   @media (min-width: 1300px) {
       width: 70%;
       margin: 0 auto;
+      margin-top: 5%;
   }
 `
 

@@ -5,7 +5,7 @@ import { HomeContainer } from './UI/Home.style';
 
 const Home = () => {
   return (
-    <HomeContainer>
+    <HomeContainer id='home'>
         <p className='p'><BsArrowDownLeft/>Hello! I Am <strong>Murilo Santos</strong></p>
         <section>
             <img src={photo} alt="Foto do criador do site" />

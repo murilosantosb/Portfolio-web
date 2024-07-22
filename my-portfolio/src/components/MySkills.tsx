@@ -5,7 +5,7 @@ import { SkillsContainer, Skills } from './UI/MySkils.style'
 
 const MySkills = () => {
   return (
-    <SkillsContainer>
+    <SkillsContainer id='about'>
         <span>
             <h1>Tecnologias que Domino:</h1>
             <p>Ferramentas e Linguagens que Uso no Meu Dia a Dia</p>

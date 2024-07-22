@@ -2,18 +2,18 @@ import styled from "styled-components";
 
 
 export const Nav = styled.nav`
-    html {
-        scroll-behavior: smooth;
-    }
-
     background-color: var(--bg-secondary);
     padding: 30px 40px;
-    /* width: 100%; */
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     transition: all 0.5s ease-in-out;
+
+    position: fixed;
+    top: 0%;
+    z-index: 1;
 
     > img {
         width: 50px;
@@ -26,6 +26,10 @@ export const Nav = styled.nav`
         display: flex;
         gap: 20px;
         list-style-type: none;
+    }
+
+    a {
+        cursor: pointer;
     }
 
     @media(min-width:700px) {

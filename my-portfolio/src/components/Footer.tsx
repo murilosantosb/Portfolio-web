@@ -31,7 +31,7 @@ const FooterContainer = styled.footer`
 
 const Footer: React.FC = () => {
   return (
-    <FooterContainer id='contacts'>
+    <FooterContainer id='contact'>
       <h1>Contato</h1>
 
       <p>

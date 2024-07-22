@@ -5,7 +5,7 @@ import { ProjectGalleryContainer } from './UI/ProjectGallery.styles'
 
 const ProjectGallery: React.FC = () => {
   return (
-    <ProjectGalleryContainer>
+    <ProjectGalleryContainer id='projects'>
         <Project 
             title='React-Food'
             contents='ReactFood é um clone do iFood. Utilizando a arquitetura MVC,
