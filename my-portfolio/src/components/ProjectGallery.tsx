@@ -4,8 +4,8 @@ import Project from './Project'
 import { ProjectGalleryContainer } from './UI/ProjectGallery.styles'
 
 // images
-import reactFood from '../assets/react-food.png'
-import reactGram from "../assets/react-gram.png"
+import reactFood from '/react-food.png'
+import reactGram from "/react-gram.png"
 
 const ProjectGallery: React.FC = () => {
   return (
