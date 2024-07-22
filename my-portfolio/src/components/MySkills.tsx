@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { SkillsContainer, Skills } from './UI/MySkils.style'
 
 

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import photo from '../assets/profile-pic.png'
 import { BsArrowDownLeft } from "react-icons/bs";
 import { HomeContainer } from './UI/Home.style';
