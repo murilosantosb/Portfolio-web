@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import { SlEnvolope } from "react-icons/sl";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 
 const FooterContainer = styled.footer`
   display: flex;
@@ -51,9 +50,6 @@ const Footer: React.FC = () => {
          </a>
          <a href="https://github.com/murilosantosb" target='_blank' rel="noopener">
             <FaGithub size={30}/>
-         </a>
-         <a href="https://www.instagram.com/murilo__santosb/" target='_blank' rel="noopener">
-            <FaInstagram size={30}/>
          </a>
       </span>
     </FooterContainer>
