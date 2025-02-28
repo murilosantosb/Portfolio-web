@@ -18,12 +18,12 @@ const Home = () => {
 
         <div className='my-biography'>
             <span>
-                <h1>Eu sou um Desenvolvedor Front-end.</h1>
+                <h1>Eu sou um Desenvolvedor Full-Stack.</h1>
                 <p>Atualmente procurando um emprego.</p>
             </span>
             <p>
                 Apaixonado pelo desenvolvimento web desde os 16 anos, sou brasileiro, nascido em 2006.
-                Atualmente, estudo Front-end e tenho experiência com back-end, incluindo arquiteturas MVC e outras.
+                Atualmente, estudo Full-Stack e tenho experiência com back-end, incluindo arquiteturas MVC e outras.
                 Sou uma pessoa que adora desafios, especialmente aqueles que me tiram da zona de conforto,
                 pois minhas maiores evoluções e aprendizados vieram de momentos em que precisei enfrentá-los.
                 Sou um estudante assíduo, que aprecia tomar café e, nas horas vagas, compartilha seu tempo com

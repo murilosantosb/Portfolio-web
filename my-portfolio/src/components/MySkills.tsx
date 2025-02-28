@@ -42,6 +42,15 @@ const MySkills = () => {
             <Skills>
                 <img src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="NodeJs" />
             </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" alt="ExpressJS" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000" alt="NestJS" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=cREyrHivHRHF&format=png&color=000000" alt="MongoDB" />
+            </Skills>
         </section>
        
        <p></p>

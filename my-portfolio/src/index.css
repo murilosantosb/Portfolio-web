@@ -32,3 +32,7 @@ p {
 a {
   text-decoration: none;
 }
+
+.maintenance {
+  color: #e93030;
+}

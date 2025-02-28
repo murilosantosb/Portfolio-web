@@ -15,8 +15,8 @@ const Project: React.FC<ProjectProps> = ({ title, contents, image, position, lin
             <span>
                 <h2>Featured Project</h2>
                 <a href={link} target='_blank'>
-                    <h1>
-                        {title}
+                    <h1 className={`${title === "React-Food" ? "maintenance" : ""}`}>
+                        {title === "React-Food" ? "React-Food - Em manutenção" : `${title}`}
                         <IoIosLink/>
                     </h1>
                 </a>

@@ -44,7 +44,8 @@ export const ProjectConteiner = styled.section`
             backdrop-filter: blur(15px);
             border-radius: 15px;
             border: 1px solid white;
-            width: 350px;
+            width: 100%;
+            max-width: 700px;
             padding: 20px 30px;
         }
 
@@ -61,7 +62,6 @@ export const ProjectConteiner = styled.section`
             height: 250px;
             border-radius: 0px 15px 0px 15px;
             margin-top: 15px;
-
         }
 
         
@@ -88,7 +88,7 @@ export const ProjectConteiner = styled.section`
 
         article {
            width: 670px;
-           margin-top: 20px;       
+           margin-top: 20px;    
         }
 
         section {
@@ -120,11 +120,8 @@ export const ProjectLeft = styled(ProjectConteiner)`
        flex-direction: row-reverse;
        align-items: center;
         
-       
-
         div > img {
             margin-right: 35px ;
-
         }
 
        section {
