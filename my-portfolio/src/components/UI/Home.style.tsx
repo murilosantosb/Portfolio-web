@@ -18,6 +18,7 @@ export const HomeContainer = styled.section`
 
     section > img {
         width: 200px;
+        height: 200px;
         padding: 20px;
         background-image: linear-gradient(to right, #11071f,#6d38a1, #7e6d94);
         border-radius: 50%;
@@ -55,6 +56,10 @@ export const HomeContainer = styled.section`
         flex-direction: column;
         gap: 20px;
         margin-top: 10%;
+
+        h1 {
+            margin-bottom: 25px;
+        }
     }
 
     div > p {

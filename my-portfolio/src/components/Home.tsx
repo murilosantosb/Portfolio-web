@@ -1,5 +1,5 @@
 
-import photo from '../assets/profile-pic.png'
+import photo from '../assets/myphoto2.jpeg'
 import { BsArrowDownLeft } from "react-icons/bs";
 import { HomeContainer } from './UI/Home.style';
 
@@ -18,17 +18,14 @@ const Home = () => {
 
         <div className='my-biography'>
             <span>
-                <h1>Eu sou um Desenvolvedor Full-Stack.</h1>
-                <p>Atualmente procurando um emprego.</p>
+                <h1>Desenvolvedor Full-Stack | Dados e Machine Learning</h1>
+                <p>Atualmente empregado na Libbs Farmacêutica</p>
             </span>
             <p>
-                Apaixonado pelo desenvolvimento web desde os 16 anos, sou brasileiro, nascido em 2006.
-                Atualmente, estudo Full-Stack e tenho experiência com back-end, incluindo arquiteturas MVC e outras.
-                Sou uma pessoa que adora desafios, especialmente aqueles que me tiram da zona de conforto,
-                pois minhas maiores evoluções e aprendizados vieram de momentos em que precisei enfrentá-los.
-                Sou um estudante assíduo, que aprecia tomar café e, nas horas vagas, compartilha seu tempo com
-                a família e com Deus. Sou cristão, amo séries e filmes desse gênero e também séries investigativas.
-                Outra paixão ardente que tenho é a musculação e o boxe 😊
+                Desenvolvedor Full-Stack em formação, com experiência na construção de aplicações web, atuando tanto no front-end quanto no back-end, com foco em performance, escalabilidade e boas práticas de arquitetura.
+                Atualmente, estou ampliando minha atuação para o ecossistema de dados, com foco em Análise de Dados, Machine Learning e Computação em Nuvem, buscando integrar desenvolvimento e inteligência de dados na criação de soluções modernas e orientadas a dados.
+                Tenho perfil analítico, gosto de desafios e estou em constante evolução, sempre buscando aprender novas tecnologias e gerar impacto através da tecnologia.
+                No âmbito pessoal, sou cristão, valorizo minha fé, minha família e meu crescimento pessoal. Gosto de séries e filmes, especialmente do gênero investigativo, e também sou apaixonado por musculação e boxe 😊
             </p>
         </div>
     </HomeContainer>

@@ -34,10 +34,10 @@ const Footer: React.FC = () => {
       <h1>Contato</h1>
 
       <p>
-        Atualmente, procuro ingressar em uma equipe multifuncional
-        que valorize a melhoria da vida das pessoas através de um
-        bom desenvolvimento acessível e eficiente. Tem uma
-        oportunidade ou um projeto em mente? Vamos nos conectar.
+         Atualmente, atuo como profissional de Suporte TI na Libbs Farmacêutica,
+         oferecendo suporte a usuários e garantindo o bom funcionamento de sistemas
+         e equipamentos. Busco sempre aprimorar meus conhecimentos e contribuir
+         com soluções eficientes. Vamos nos conectar.
       </p>
       <p>murilo.barbosa2016@outlook.com</p>
 

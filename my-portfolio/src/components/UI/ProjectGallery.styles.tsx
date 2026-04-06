@@ -4,10 +4,11 @@ export const ProjectGalleryContainer = styled.section`
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 200px;
+    gap: 100px;
 
     @media (min-width: 991px) {
         width: 60%;
+        gap: 150px;
     }
 `
 

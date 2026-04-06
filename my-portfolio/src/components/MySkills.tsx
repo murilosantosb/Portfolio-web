@@ -28,6 +28,27 @@ const MySkills = () => {
                 <img src="https://img.icons8.com/?size=100&id=MWiBjkuHeMVq&format=png&color=000000" alt="NextJs" />
             </Skills>
             <Skills>
+                <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" alt="Python" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=101164&format=png&color=FFFFFF" alt="IA" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=97384&format=png&color=000000" alt="Machine Learning" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" alt="Java" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="Spring Boot" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=KZHjwwenS7oK&format=png&color=000000" alt="SQL" />
+            </Skills>
+            <Skills>
+                <img src="https://img.icons8.com/?size=100&id=cREyrHivHRHF&format=png&color=000000" alt="MongoDB" />
+            </Skills>
+            <Skills>
                 <img src="https://img.icons8.com/?size=100&id=CIAZz2CYc6Kc&format=png&color=000000" alt="TailwindCSS" />
             </Skills>
             <Skills>
@@ -37,19 +58,16 @@ const MySkills = () => {
                 <img src="https://img.icons8.com/?size=100&id=20906&format=png&color=000000" alt="Git" />
             </Skills>
             <Skills>
-                <img src="https://img.icons8.com/?size=100&id=WCL5hPLvhUjQ&format=png&color=000000" alt="GitHub" />
+                <img src="https://img.icons8.com/?size=100&id=WCL5hPLvhUjQ&format=png&color=FFFFFF" alt="GitHub" />
             </Skills>
             <Skills>
                 <img src="https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000" alt="NodeJs" />
             </Skills>
             <Skills>
-                <img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=000000" alt="ExpressJS" />
+                <img src="https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff" alt="ExpressJS" />
             </Skills>
             <Skills>
                 <img src="https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000" alt="NestJS" />
-            </Skills>
-            <Skills>
-                <img src="https://img.icons8.com/?size=100&id=cREyrHivHRHF&format=png&color=000000" alt="MongoDB" />
             </Skills>
         </section>
        
