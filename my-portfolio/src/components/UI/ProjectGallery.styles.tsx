@@ -66,6 +66,10 @@ export const ProjectConteiner = styled.section`
             margin-top: 15px;
         }
 
+        div > img.p1 {
+            padding: 20px;
+        }
+
         
 
     @media (min-width: 1200px) {
@@ -102,12 +106,12 @@ export const ProjectConteiner = styled.section`
 
 export const ProjectRight = styled(ProjectConteiner)`
     align-items: flex-start;
+    margin-bottom: 100px;
 
     @media (min-width: 1200px) {
         div > img {
             border-radius: 15px 0px 0px 0px;
             margin-left: 35px;
-
         }
     }
 `
@@ -150,10 +154,13 @@ export const ProjectLeft = styled(ProjectConteiner)`
         text-align: end;
      }
 
+     margin-bottom: 100px;
+
     @media(min-width: 1200px) {
        display: flex;
        flex-direction: row-reverse;
        align-items: center;
+       margin-bottom: -100px;
         
         div > img {
             margin-right: 35px ;
