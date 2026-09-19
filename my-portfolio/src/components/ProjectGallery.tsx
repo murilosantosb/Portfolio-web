@@ -4,10 +4,8 @@ import Project from './Project'
 import { ProjectGalleryContainer } from './UI/ProjectGallery.styles'
 
 // images
-// import customerChurn from '/customer-churn.svg'
-import customerChurn from '/img1.png'
-// import petClassifier from '/pet-classifier.png'
-import petClassifier from '/p3.png'
+import customerChurn from '/customer-churn.png'
+import petClassifier from '/pet-classifier.png'
 import financeAi from "/finance-ai.png"
 
 const ProjectGallery: React.FC = () => {
