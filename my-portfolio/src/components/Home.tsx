@@ -18,13 +18,13 @@ const Home = () => {
 
         <div className='my-biography'>
             <span>
-                <h1>Desenvolvedor Full-Stack | Dados e Machine Learning</h1>
+                <h1>Full-Stack | Dados, Machine Learning e IA</h1>
                 <p>Atualmente empregado na Libbs Farmacêutica</p>
             </span>
             <p>
-                Desenvolvedor Full-Stack em formação, com experiência na construção de aplicações web, atuando tanto no front-end quanto no back-end, com foco em performance, escalabilidade e boas práticas de arquitetura.
-                Atualmente, estou ampliando minha atuação para o ecossistema de dados, com foco em Análise de Dados, Machine Learning e Computação em Nuvem, buscando integrar desenvolvimento e inteligência de dados na criação de soluções modernas e orientadas a dados.
-                Tenho perfil analítico, gosto de desafios e estou em constante evolução, sempre buscando aprender novas tecnologias e gerar impacto através da tecnologia.
+                Atuo em duas frentes que se complementam: a construção de aplicações web full-stack, no front-end e no back-end, com foco em arquitetura e boas práticas, e a atuação em dados, da ingestão e análise até pipelines e modelos de Machine Learning. Também venho ampliando meus conhecimentos em Computação em Nuvem, com a certificação Microsoft Certified: Azure Fundamentals (AZ-900). Tenho perfil analítico, gosto de desafios e estou em constante evolução, sempre buscando aprender novas tecnologias e gerar impacto através da tecnologia.
+            </p>
+            <p>
                 No âmbito pessoal, sou cristão, valorizo minha fé, minha família e meu crescimento pessoal. Gosto de séries e filmes, especialmente do gênero investigativo, e também sou apaixonado por musculação e boxe 😊
             </p>
         </div>

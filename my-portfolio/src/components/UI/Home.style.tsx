@@ -17,11 +17,14 @@ export const HomeContainer = styled.section`
     }
 
     section > img {
-        width: 200px;
-        height: 200px;
+        width: 220px;
+        height: 220px;
         padding: 20px;
         background-image: linear-gradient(to right, #11071f,#6d38a1, #7e6d94);
         border-radius: 50%;
+        object-fit: cover;
+        object-position: center 20%;
+        box-sizing: content-box;
     }
 
     p.p {

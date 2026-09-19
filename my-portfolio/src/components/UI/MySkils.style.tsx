@@ -52,4 +52,30 @@ export const Skills = styled.div`
         padding: 8px;
         margin: 0 auto;
     }
+
+    > svg {
+        width: 80px;
+        height: 80px;
+        padding: 8px;
+        margin: 0 auto;
+        display: block;
+    }
+`
+
+export const DataSkillsBlock = styled.div`
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 10px;
+
+    h2 {
+        font-size: 1.3em;
+        color: var(--color-strong);
+    }
+
+    @media (min-width: 700px) {
+        align-items: center;
+    }
 `

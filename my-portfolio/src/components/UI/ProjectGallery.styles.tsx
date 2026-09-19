@@ -61,6 +61,7 @@ export const ProjectConteiner = styled.section`
         div > img {
             width: 370px;
             height: 250px;
+            object-fit: cover;
             border-radius: 0px 15px 0px 15px;
             margin-top: 15px;
         }
@@ -85,6 +86,7 @@ export const ProjectConteiner = styled.section`
 
         div > img {
             width: 470px;
+            object-fit: cover;
         }
 
         article {
@@ -108,6 +110,38 @@ export const ProjectRight = styled(ProjectConteiner)`
 
         }
     }
+`
+
+export const StackList = styled.ul`
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+`
+
+export const StackChip = styled.li`
+    background-color: rgba(136, 83, 228, 0.15);
+    border: 1px solid #7127ba;
+    color: #e2e2e2;
+    font-size: 0.75em;
+    padding: 4px 12px;
+    border-radius: 20px;
+    white-space: nowrap;
+`
+
+export const ProjectBadge = styled.span`
+    display: inline-block;
+    background-color: #2b0b3a;
+    border: 1px solid #8853e4;
+    color: #e2e2e2;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
 `
 
 export const ProjectLeft = styled(ProjectConteiner)`
